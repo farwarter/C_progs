@@ -1,8 +1,10 @@
+//Программа поиска факториала введенного числа (1<n<12).
+
 #include <stdio.h>
 
 int main()
 {
-    int n; //1<n<12
+    int n; 
     int f = 0;
     scanf("%d", &n);
     if (n > 0)
